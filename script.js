@@ -66,11 +66,9 @@ function updateFlapCounter(newTotal) {
         newTotalStr = newTotalStr.padStart(digitsCount, '0');
     }
     
-    const displayOrder = newTotalStr.split('').reverse(); // show least significant digit first
-    
     digits.forEach((digit, index) => {
         const currentValue = parseInt(digit.dataset.value);
-        const newValue = parseInt(displayOrder[index]);
+        const newValue = parseInt(newTotalStr[index]);
         
         if (currentValue !== newValue) {
             const currentDisplay = digit.querySelector('.flap-display.current');
