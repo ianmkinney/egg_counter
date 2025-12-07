@@ -14,15 +14,9 @@
         </header>
         
         <div class="main-content">
-            <!-- Receipts Section -->
-            <div class="receipts-section">
-                <h3>RECEIPTS</h3>
-                <div class="receipts-container" id="receiptsContainer"></div>
-            </div>
-            
             <!-- Counter Section -->
-            <div class="counter-section">
-                <h3>TOTAL EGGS</h3>
+            <section class="counter-section" aria-labelledby="counterHeading">
+                <h3 id="counterHeading">TOTAL EGGS</h3>
                 <div class="flap-counter" id="flapCounter">
                     <div class="flap-digit" data-value="0">
                         <div class="flap-display current">0</div>
@@ -49,7 +43,16 @@
                         <div class="flap-display next">0</div>
                     </div>
                 </div>
-            </div>
+            </section>
+            
+            <!-- Receipts Section -->
+            <section class="receipts-section" aria-labelledby="receiptsHeading">
+                <div class="receipts-header">
+                    <h3 id="receiptsHeading">RECEIPTS</h3>
+                    <p class="receipts-subtitle">Latest tickets (max 20 shown)</p>
+                </div>
+                <div class="receipts-container" id="receiptsContainer" role="log" aria-live="polite"></div>
+            </section>
         </div>
         
         <div class="controls">
