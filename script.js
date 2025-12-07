@@ -58,7 +58,13 @@ function updateFlapCounter(newTotal) {
     const counter = document.getElementById('flapCounter');
     const digits = counter.querySelectorAll('.flap-digit');
     const digitsCount = digits.length;
-    const newTotalStr = String(newTotal).padStart(digitsCount, '0');
+    let newTotalStr = String(newTotal);
+
+    if (newTotalStr.length > digitsCount) {
+        newTotalStr = newTotalStr.slice(-digitsCount); // keep least significant digits
+    } else {
+        newTotalStr = newTotalStr.padStart(digitsCount, '0');
+    }
     
     digits.forEach((digit, index) => {
         const currentValue = parseInt(digit.dataset.value);
