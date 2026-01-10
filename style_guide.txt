@@ -1,0 +1,85 @@
+# Eggs Up Grill - Comprehensive Style Guide
+
+Based on my analysis of the Eggs Up Grill website, here is a complete style guide documenting all fonts, colors, and logos:
+
+## **COLORS**
+
+### Primary Colors
+- **Teal/Turquoise** - Primary brand color used for header, footer, and accent sections (appears to be approximately #50B8B4 or similar)
+- **White** - #FFFFFF - Background color for content sections
+
+### Secondary Colors  
+- **Bright Yellow/Gold** - Used for accent text like "WELCOME TO" and "COMFORT WITH EVERY CRACK OF AN EGG" (approximately #FDB913 or similar)
+- **Orange** - Vibrant orange used for decorative accent boxes (approximately #FF9F1C)
+- **Black** - Used for body copy text
+
+### Additional Colors
+- **Light Gray/Off-White** - Used for background sections
+- **Teal Overlay** - Semi-transparent teal overlay on hero images
+
+## **TYPOGRAPHY**
+
+### Heading Fonts
+- **Script/Cursive Font** - Used for main display text like "Eggs Up Grill," "Get To Know Us," "Own An Eggs Up Grill," "Our Menu," "Locations," "Catering," and "Order Now." This appears to be a flowing, handwritten-style script font (possibly similar to Allura, Pacifico, or a custom script)
+
+### Body & Supporting Text Fonts
+- **Sans-Serif Font** - Used for:
+  - "WELCOME TO" (all caps, bold, yellow)
+  - "COMFORT WITH EVERY CRACK OF AN EGG" (all caps, bold, orange)
+  - Section headings like "CONTACT," "JOIN OUR TEAM," "NUTRITION GUIDE," "NEWS," "GIFT CARDS"
+  - Subheadings like "Have Questions or Comments?" and "Egg'citing Opportunities" (in yellow)
+  - Body text and descriptions
+  - Button text
+  - Appears to be a clean, modern sans-serif (possibly similar to Montserrat, Open Sans, or a custom sans-serif)
+
+### Text Styles
+- **All Caps** - Used for section headers and buttons
+- **Mixed Case** - Used for body copy and subheadings
+- **Bold Weight** - Used for headings and emphasis
+- **Regular Weight** - Used for body text
+
+## **LOGOS**
+
+### Primary Logo
+- **Main Logo** - "EGGS UP GRILL" text in white on teal background
+  - Features white text in all caps
+  - Has a yellow curved underline/smile beneath the text
+  - Appears in the header navigation (centered)
+  - Also appears in footer and mid-page sections
+
+### Logo Variations
+The logo appears in multiple contexts:
+1. **Header Logo** - White text with yellow accent line on teal background
+2. **Footer Logo** - Same styling as header
+3. **Mid-page Logo** - Used in franchise section
+
+### Brand Elements
+- **Yellow Curved Line/Smile** - Signature element that appears under the logo text, representing a smile or sunny disposition
+- The smile/curve element reinforces the friendly, welcoming brand personality
+
+## **BUTTONS**
+
+### Button Styles
+- **Outlined Buttons** - White text with white border on teal background
+  - Examples: "LEARN MORE," "SUBMIT A FORM," "VIEW JOB OPENINGS," "SIGN-UP"
+  - Appear to have rounded corners
+  - All caps text
+
+- **Link Buttons** - Teal colored text for links like "Read More"
+
+## **DESIGN PATTERNS**
+
+### Decorative Elements
+- **Torn Paper Edge** - Textured, torn paper effect between the "Get To Know Us" section and "Own An Eggs Up Grill" section
+- **Textured Background** - Subtle texture applied to teal sections
+- **Yellow Accent Lines** - Horizontal yellow divider lines used between sections on teal backgrounds
+
+### Layout
+- **Grid Layout** - Four-quadrant grid used for navigation sections (Our Menu, Locations, Catering, Order Now)
+- **Image Overlays** - Text overlaid on hero images with teal color overlay
+- **Center Alignment** - Logo and main headings centered
+
+This style guide captures the warm, friendly, and approachable brand identity of Eggs Up Grill, with its signature teal and yellow color scheme, mix of playful script and clean sans-serif typography, and welcoming visual elements.[1][2]
+
+[1](https://eggsupgrill.com/)
+[2](https://eggsupgrill.com/)

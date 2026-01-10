@@ -77,21 +77,42 @@ function updateFlapCounter(newTotal) {
             // Set the new value on the next display (which will flip up)
             nextDisplay.textContent = newValue;
             
-            // Animate the flip
-            digit.classList.add('flipping');
-            
-            setTimeout(() => {
-                // After animation, swap the displays
+            // Ensure start states before animating to avoid twitch
+            currentDisplay.style.transform = '';
+            nextDisplay.style.transform = 'rotateX(90deg)';
+
+            let completed = false;
+            const finishFlip = () => {
+                if (completed) return;
+                completed = true;
+
                 currentDisplay.textContent = newValue;
                 currentDisplay.classList.remove('current');
                 currentDisplay.classList.add('next');
-                
+                currentDisplay.style.transform = '';
+
                 nextDisplay.classList.remove('next');
                 nextDisplay.classList.add('current');
-                
+                nextDisplay.style.transform = '';
+
                 digit.dataset.value = newValue;
                 digit.classList.remove('flipping');
-            }, 400);
+
+                currentDisplay.removeEventListener('transitionend', handleFlipEnd);
+                clearTimeout(fallbackTimeout);
+            };
+
+            const handleFlipEnd = (event) => {
+                if (event.propertyName === 'transform') {
+                    finishFlip();
+                }
+            };
+
+            // Fallback in case transitionend doesn’t fire (e.g., rapid updates)
+            const fallbackTimeout = setTimeout(finishFlip, 500);
+
+            currentDisplay.addEventListener('transitionend', handleFlipEnd);
+            digit.classList.add('flipping');
         }
     });
 }

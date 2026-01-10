@@ -8,14 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>EGGS UP GRILL</h1>
-            <h2>EGG COUNTER</h2>
+        <header class="brand-header">
+            <div class="logo-lockup">
+                <h1 class="logo-text">Eggs Up Grill</h1>
+                <span class="logo-smile" aria-hidden="true"></span>
+            </div>
+            <h2 class="page-title">Egg Counter</h2>
         </header>
         
         <div class="main-content">
             <!-- Counter Section -->
-            <section class="counter-section" aria-labelledby="counterHeading">
+            <section class="counter-section section-card" aria-labelledby="counterHeading">
                 <h3 id="counterHeading">TOTAL EGGS</h3>
                 <div class="flap-counter" id="flapCounter">
                     <div class="flap-digit" data-value="0">
@@ -42,7 +45,7 @@
             </section>
             
             <!-- Receipts Section -->
-            <section class="receipts-section" aria-labelledby="receiptsHeading">
+            <section class="receipts-section section-card" aria-labelledby="receiptsHeading">
                 <div class="receipts-header">
                     <h3 id="receiptsHeading">RECEIPTS</h3>
                     <p class="receipts-subtitle">Latest tickets (max 20 shown)</p>
@@ -52,9 +55,9 @@
         </div>
         
         <div class="controls">
-            <button id="startBtn" class="btn">START</button>
-            <button id="stopBtn" class="btn" disabled>STOP</button>
-            <button id="resetBtn" class="btn">RESET</button>
+            <button id="startBtn" class="btn">Start</button>
+            <button id="stopBtn" class="btn" disabled>Stop</button>
+            <button id="resetBtn" class="btn">Reset</button>
         </div>
     </div>
     
